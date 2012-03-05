@@ -51,10 +51,6 @@
     <Compile Include="SwitchSettingsAction.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="License.txt" />
-    <Content Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Actions.xml" />
   </ItemGroup>
   <PropertyGroup>
