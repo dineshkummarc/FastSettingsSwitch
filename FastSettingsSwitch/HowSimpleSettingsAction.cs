@@ -28,14 +28,14 @@ using JetBrains.ActionManagement;
 
 namespace FastSettingsSwitch
 {
-    [ActionHandler("FastSettingsSwitch.Personal")]
-    public class PersonalSettingsAction : SwitchSettingsAction 
+    [ActionHandler("FastSettingsSwitch.HowSimple")]
+    public class HowSimpleSettingsAction : SwitchSettingsAction 
     {
         protected override string SettingsFilePath
         {
             get
             {
-                return @"D:\Dropbox\Development\ReSharper\Personal.DotSettings";
+                return @"D:\Dropbox\Development\ReSharper\HowSimple.DotSettings";
             }
         }
     }
